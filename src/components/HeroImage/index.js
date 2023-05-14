@@ -7,7 +7,10 @@ const HeroImage = (prop) =>(
         <Content>
             <Text>
                 <h1>{prop.title}</h1>
+                <p>{prop.Text}</p>
             </Text>
         </Content>
     </Wrapper>
-)
+);
+
+export default HeroImage;
